@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: azure;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding: 16px;
+    border-radius: 10px;
+    gap: 8px;
+}
+
+.topbuttons{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buttonLayout{
+    display: flex;
+    gap: 8px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    gap: 8px;
+    width: 200px;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.operator{
+    background-color: orangered;
+    color: white;
+}
+
+.display{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    background-color: gray;
+    border-radius: 5px;
+    flex-basis: 80px;
+    font-size: xx-large;
+    padding-right: 8px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+}
