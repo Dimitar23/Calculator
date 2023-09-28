@@ -25,6 +25,7 @@ body{
 .topbuttons{
     display: flex;
     flex-direction: row-reverse;
+    gap: 8px;
 }
 
 .buttonLayout{
@@ -77,4 +78,10 @@ button{
 
 .clear{
     background-color:blanchedalmond;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#backspace{
+    min-width: max-content;
 }
